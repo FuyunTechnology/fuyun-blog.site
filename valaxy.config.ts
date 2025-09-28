@@ -1,7 +1,7 @@
 import type { UserThemeConfig } from 'valaxy-theme-yun'  //引入主题yun
 import { defineValaxyConfig } from 'valaxy'  
 import { addonComponents } from 'valaxy-addon-components'  //引入插件通用插件
-//import { addonFace } from 'valaxy-addon-face'  //引入表情包插件
+import { addonFace } from 'valaxy-addon-face'  //引入表情包插件
 // add icons what you will need
 const safelist = [
   'i-ri-home-line',
@@ -91,6 +91,12 @@ export default defineValaxyConfig<UserThemeConfig>({
 
  addons: [
     addonComponents(),  //导入通用组件
+     addonFace({
+      // 配置
+      defaultSuffix: 'png'
+    }),
+    // 如果不配置：
+    //'valaxy-addon-face'
   ],
   
    markdown: {  //markdown扩展警示框
