@@ -4,16 +4,17 @@ export default defineSiteConfig({
   url: 'https://valaxy.site/',
   
   lang: 'zh-CN',  //默认语言
-  
   title: '芸端之上',  //站点名字
-  
   subtitle: 'Roof above the sea star',  //站点副标题
-  
   description: '编辑博客还是太难了',  //站点描述
+
+
 
   frontmatter: {
     time_warning: false,  //是否启用时间警告
   },
+
+
 
   author: {
     name: '仰望星空',  //站长名字
@@ -24,7 +25,13 @@ export default defineSiteConfig({
       message: '我有一计!'  //鼠标悬停时显示的文字
   }
   },
+
+
+
   favicon: 'https://media.githubusercontent.com/media/Fuyunxinyu/fuyunxinyu.github.io/main/image/site/Site%20Icon.png',  //站点图标
+  
+  
+  
   social: [
    /**
      * 按以下格式添加社媒方式,排除"*"和"/"(他们起注释作用)
@@ -35,7 +42,6 @@ export default defineSiteConfig({
       color: '图标颜色,请使用16进制格式',
     },
      */
-
     {
       name: 'RSS',
       link: '/atom.xml',
@@ -74,10 +80,13 @@ export default defineSiteConfig({
     },
   ],
 
-   search: {  //搜索相关
+
+
+   search: 
+   {  //搜索相关
     enable: true,  //启用搜索
     type: 'fuse',  //搜索样式,有 "engine" "algolia" "fuse",选填一个
-  },
+   },
   fuse: {  //fuse配置
     options: {
       keys: ['title', 'tags', 'categories', 'excerpt', 'content'],
@@ -97,6 +106,8 @@ export default defineSiteConfig({
     },
   },
 
+
+
   encrypt: {
     // 开启加密，默认关闭
     enable: true
@@ -105,7 +116,11 @@ export default defineSiteConfig({
     // salt
   },
 
+
+
 mediumZoom: { enable: true },  //开启图片预览
+
+
 
   /**
    * 开启阅读统计
@@ -122,6 +137,8 @@ mediumZoom: { enable: true },  //开启图片预览
       },
     },
   },
+
+
 
   sponsor: {  //赞助功能
     enable: false,  //赞助开关
@@ -155,4 +172,7 @@ mediumZoom: { enable: true },  //开启图片预览
       },
     ],
   },
+
+
+
 })

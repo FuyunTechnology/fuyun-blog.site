@@ -25,7 +25,7 @@ export default defineValaxyConfig<UserThemeConfig>({
         bg_image: {  //网站的背景图片,粘贴链接
       enable: true,  //是否启用背景图片
       //亮色模式背景图片
-      url: 'https://cdn.jsdelivr.net/gh/Fuyunxiyu/fuyunxinyu.github.io/image/site/White-background.jpg',  
+      url: 'https://raw.githubusercontent.com/Fuyunxinyu/fuyunxinyu.github.io/main/image/site/White-background.jpg',  
       //暗色模式背景图片
       dark: 'https://cdn.jsdelivr.net/gh/Fuyunxinyu/fuyunxinyu.github.io/image/site/Black-background.jpg',  
       opacity: 0.7
@@ -56,13 +56,19 @@ export default defineValaxyConfig<UserThemeConfig>({
         name: '相册',
         url: '/albums/',
         icon: 'i-line-md-image-filled',
-        color: '#43abee',
+        color: '#a5ffe6f0',
       },
       {
-        name: '不明图标',
+        name: '不明页面',
         url: '/surprise/',
-        icon: 'i-line-md-star-pulsating-filled-loop',
-        color: 'yellow',
+        icon: '',
+        color: '#ffffff01',
+      },
+      {
+      name: '文档',
+      url: 'https://fuyuntechnology.github.io',
+      icon: 'i-ri-book-3-fill',
+      color: '#92d1f6ff',
       },
     ],
 
@@ -81,13 +87,14 @@ export default defineValaxyConfig<UserThemeConfig>({
         url: 'https://fuyuntechnology.github.io/',	//图标链接
         title: '回到首页'		//鼠标悬停注释
       },
-      
       beian: {  //备案
         enable: true,  //是否启用
         icp: '备案号:xxxx 真的备案了吗',	// 备案信息
       },
     },
   },
+
+
 
  addons: [
     addonComponents(),  //导入通用组件
@@ -99,6 +106,8 @@ export default defineValaxyConfig<UserThemeConfig>({
     //'valaxy-addon-face'
   ],
   
+
+
    markdown: {  //markdown扩展警示框
     // default material-theme-palenight
     // theme: 'material-theme-palenight',
@@ -143,6 +152,8 @@ export default defineValaxyConfig<UserThemeConfig>({
     }
   },
 
+
+  
   unocss: { safelist },
 })
 
