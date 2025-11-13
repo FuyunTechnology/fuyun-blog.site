@@ -37,6 +37,7 @@ declare module 'vue-router/auto-routes' {
     '/posts/others/account': RouteRecordInfo<'/posts/others/account', '/posts/others/account', Record<never, never>, Record<never, never>>,
     '/posts/others/Homework': RouteRecordInfo<'/posts/others/Homework', '/posts/others/Homework', Record<never, never>, Record<never, never>>,
     '/posts/poem/Alone the clouds': RouteRecordInfo<'/posts/poem/Alone the clouds', '/posts/poem/Alone the clouds', Record<never, never>, Record<never, never>>,
+    '/posts/poem/Bad sleep': RouteRecordInfo<'/posts/poem/Bad sleep', '/posts/poem/Bad sleep', Record<never, never>, Record<never, never>>,
     '/posts/poem/Batter/Memories and thought': RouteRecordInfo<'/posts/poem/Batter/Memories and thought', '/posts/poem/Batter/Memories and thought', Record<never, never>, Record<never, never>>,
     '/posts/poem/Batter/Reminding deeply': RouteRecordInfo<'/posts/poem/Batter/Reminding deeply', '/posts/poem/Batter/Reminding deeply', Record<never, never>, Record<never, never>>,
     '/posts/poem/Batter/Starlight flowing pointer': RouteRecordInfo<'/posts/poem/Batter/Starlight flowing pointer', '/posts/poem/Batter/Starlight flowing pointer', Record<never, never>, Record<never, never>>,
@@ -157,6 +158,10 @@ declare module 'vue-router/auto-routes' {
     }
     'pages/posts/poem/Alone the clouds.md': {
       routes: '/posts/poem/Alone the clouds'
+      views: never
+    }
+    'pages/posts/poem/Bad sleep.md': {
+      routes: '/posts/poem/Bad sleep'
       views: never
     }
     'pages/posts/poem/Batter/Memories and thought.md': {
