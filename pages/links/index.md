@@ -2,7 +2,26 @@
 title: 我的小伙伴们
 keywords: 链接
 description: 浮芸的小伙伴们
-links: https://www.yunyoujun.cn/friends/links.json
+aside: false
+toc: false
+nav: false
+links:
+  - url: https://www.yunyoujun.cn
+    avatar: https://www.yunyoujun.cn/images/avatar.jpg
+    name: 云游君
+    blog: 云游君的小站
+    desc: 希望能成为一个有趣的人。
+    email: me@yunyoujun.cn
+    color: "#0078e7"
+  - url: https://hi.sillot.top/
+    avatar: https://github.com/Hi-Sillot.png
+    name: 汐洛
+    blog: 汐洛
+    desc: 汐洛无处不在
+    color: "#328a99ff"
+# 也可以是一个 JSON 链接
+# links: https://friends.yunyoujun.cn/links.json
 random: true
 ---
 
+<YunLinks :links="frontmatter.links" :random="frontmatter.random" errorImg="https://cdn.yunyoujun.cn/img/avatar/none.jpg" />
