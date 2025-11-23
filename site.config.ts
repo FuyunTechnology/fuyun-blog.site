@@ -48,12 +48,12 @@ export default defineSiteConfig({
       icon: 'i-ri-rss-fill',
       color: 'orange',
     },
-    {
-      name: 'QQ  3404889047',
-      link: 'https://qun.qq.com/universal-share/share?ac=1&authKey=A9%2BrXFxkXkc3XCSNK7iBO0bkirxVjmHe7MfHxj6XI1COBry9sIMl%2BWwEr0cCaw2i&busi_data=eyJncm91cENvZGUiOiIzNjk0MTE2OTEiLCJ0b2tlbiI6IldXU2RDUDM5b0RDWTRLL2RaT0hZOXY0dnZTSjJqWEhtclQ1REpBNkp5MHlKQmdBaG9FelYyVXUrWmdPYkYzS0YiLCJ1aW4iOiIzNDA0ODg5MDQ3In0%3D&data=9UIxAslXBqDLmXF53Zx8iqQ86q9MUKPQGPofNJKY68C4x4HeObaRaX7Tt5KTBSJTZv8uNI0CSBOg_w88fzNTOA&svctype=4&tempid=h5_group_info',
-      icon: 'i-ri-qq-line',
-      color: '#12B7F5',
-    },
+    //{
+    //  name: 'QQ  3404889047',
+    //  link: 'https://qun.qq.com/universal-share/share?ac=1&authKey=A9%2BrXFxkXkc3XCSNK7iBO0bkirxVjmHe7MfHxj6XI1COBry9sIMl%2BWwEr0cCaw2i&busi_data=eyJncm91cENvZGUiOiIzNjk0MTE2OTEiLCJ0b2tlbiI6IldXU2RDUDM5b0RDWTRLL2RaT0hZOXY0dnZTSjJqWEhtclQ1REpBNkp5MHlKQmdBaG9FelYyVXUrWmdPYkYzS0YiLCJ1aW4iOiIzNDA0ODg5MDQ3In0%3D&data=9UIxAslXBqDLmXF53Zx8iqQ86q9MUKPQGPofNJKY68C4x4HeObaRaX7Tt5KTBSJTZv8uNI0CSBOg_w88fzNTOA&svctype=4&tempid=h5_group_info',
+    //  icon: 'i-ri-qq-line',
+    //  color: '#12B7F5',
+    //},
     {
       name: 'GitHub',
       link: 'https://github.com/FuyunTechnology',
@@ -67,14 +67,8 @@ export default defineSiteConfig({
       color: '#FF8EB3',
     },
     {
-      name: 'Telegram Channel',
-      link: 'https://t.me/elpsycn',
-      icon: 'i-ri-telegram-line',
-      color: '#0088CC',
-    },
-    {
       name: 'E-Mail(暂时还没有合适的)',
-      link: '',
+      link: 'mailto:3404889047@qq.com',
       icon: 'i-ri-mail-line',
       color: '#8E71C1',
     },

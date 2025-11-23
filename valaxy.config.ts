@@ -59,7 +59,7 @@ export default defineValaxyConfig<UserThemeConfig>({
         color: '#a5ffe6f0',
       },
       {
-        name: '不明页面',
+        name: '?',
         url: '/surprise/',
         icon: '',
         color: '#ffffff01',
@@ -83,7 +83,7 @@ export default defineValaxyConfig<UserThemeConfig>({
         enable: true,  //是否启用
         name: 'i-line-md-moon-rising-filled-alt-loop',  //图标名字
         animated: true,  //是否启用
-        color: '#d69b54',  //图标颜色
+        color: '#476fdbff',  //图标颜色
         url: 'https://fuyuntechnology.github.io/',	//图标链接
         title: '回到首页'		//鼠标悬停注释
       },
