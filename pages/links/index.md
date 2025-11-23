@@ -32,3 +32,12 @@ random: true
 ---
 
 <YunLinks :links="frontmatter.links" :random="frontmatter.random" errorImg="https://cdn.yunyoujun.cn/img/avatar/none.jpg" />
+
+{
+    "url": "https://fuyunxinyu.github.io",
+    "avatar": "https://cdn.jsdelivr.net/gh/Fuyunxinyu/fuyunxinyu.github.io/image/site/Avatar.jpg",
+    "name": "浮芸星语空悠悠",
+    "blog": "Roof above the sea star",
+    "desc": "余生漫漫, 不见 不散",
+    "color": "#97d2ffff"
+}

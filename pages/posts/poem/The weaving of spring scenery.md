@@ -21,4 +21,6 @@ categories:
 tags:
   - 现代诗
   - 次级诗稿
+draft: ture
+
 ---
