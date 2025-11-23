@@ -65,6 +65,7 @@ declare module 'vue-router/auto-routes' {
     '/posts/poem/star': RouteRecordInfo<'/posts/poem/star', '/posts/poem/star', Record<never, never>, Record<never, never>>,
     '/posts/poem/The sand by the sea of time': RouteRecordInfo<'/posts/poem/The sand by the sea of time', '/posts/poem/The sand by the sea of time', Record<never, never>, Record<never, never>>,
     '/posts/poem/The weaving of spring scenery': RouteRecordInfo<'/posts/poem/The weaving of spring scenery', '/posts/poem/The weaving of spring scenery', Record<never, never>, Record<never, never>>,
+    '/posts/poem/The window': RouteRecordInfo<'/posts/poem/The window', '/posts/poem/The window', Record<never, never>, Record<never, never>>,
     '/posts/poem/Time above the firework': RouteRecordInfo<'/posts/poem/Time above the firework', '/posts/poem/Time above the firework', Record<never, never>, Record<never, never>>,
     '/posts/poem/waiting': RouteRecordInfo<'/posts/poem/waiting', '/posts/poem/waiting', Record<never, never>, Record<never, never>>,
     '/posts/poem/Why': RouteRecordInfo<'/posts/poem/Why', '/posts/poem/Why', Record<never, never>, Record<never, never>>,
@@ -270,6 +271,10 @@ declare module 'vue-router/auto-routes' {
     }
     'pages/posts/poem/The weaving of spring scenery.md': {
       routes: '/posts/poem/The weaving of spring scenery'
+      views: never
+    }
+    'pages/posts/poem/The window.md': {
+      routes: '/posts/poem/The window'
       views: never
     }
     'pages/posts/poem/Time above the firework.md': {

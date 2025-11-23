@@ -17,7 +17,7 @@ export default defineSiteConfig({
 
 
   author: {
-    name: '仰望星空',  //站长名字
+    name: '浮芸星语空悠悠',  //站长名字
     avatar: "https://cdn.jsdelivr.net/gh/Fuyunxinyu/fuyunxinyu.github.io/image/site/Avatar.jpg",  //站长头像
     status:  //状态
     {

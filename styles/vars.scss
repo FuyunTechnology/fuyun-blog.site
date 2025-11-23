@@ -55,3 +55,8 @@ html.dark{
 .markdown-body {
   --smc-font-sans: 'LXGWWenKai woff2',"Courier New",Menlo, Monaco, Consolas,  monospace;
 }
+
+// 新建 styles/vars.css 文件
+:root {
+  --yun-c-cloud: rgb(185, 249, 255);
+}

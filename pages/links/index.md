@@ -19,6 +19,13 @@ links:
     blog: 汐洛
     desc: 汐洛无处不在
     color: "#328a99ff"
+  - url: https://www.yuumi.link/
+    avatar: https://cdn.yuumi.link/images/settings/favicon.png
+    name: Yuumi
+    blog: Yuumi'blog
+    desc: 希望能成为一个有趣的人。
+    email: yuumi0221@163.com
+    color: "#D69B54"
 # 也可以是一个 JSON 链接
 # links: https://friends.yunyoujun.cn/links.json
 random: true

@@ -19,7 +19,7 @@ export default defineValaxyConfig<UserThemeConfig>({
   themeConfig: {  
     banner: {
       enable: true,
-      title: '星海坠入云端',   //在这里填写你的站点名字
+      title: ['星海','坠','入','芸端'],   //在这里填写你的站点名字
     },
 
         bg_image: {  //网站的背景图片,粘贴链接
