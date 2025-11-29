@@ -5,7 +5,7 @@
   "private": true,
   "scripts": {
     "dev": "valaxy",
-    "build": "pnpm run build:ssg",
+    "build": "npm run build:ssg",
     "update": "pnpm up --latest -i",
     "build:spa": "valaxy build",
     "build:ssg": "valaxy build --ssg",
