@@ -2,6 +2,7 @@ import type { UserThemeConfig } from 'valaxy-theme-yun'  //引入主题yun
 import { defineValaxyConfig } from 'valaxy'  
 import { addonComponents } from 'valaxy-addon-components'  //引入插件通用插件
 import { addonFace } from 'valaxy-addon-face'  //引入表情包插件
+import { addonWaline } from 'valaxy-addon-waline'
 // add icons what you will need
 const safelist = [
   'i-ri-home-line',
@@ -96,6 +97,15 @@ export default defineValaxyConfig<UserThemeConfig>({
 
 
 
+
+siteConfig: {
+    // 启用评论
+    comment: {
+      enable: true
+    }
+  },
+  
+
  addons: [
     addonComponents(),  //导入通用组件
      addonFace({
@@ -104,6 +114,10 @@ export default defineValaxyConfig<UserThemeConfig>({
     }),
     // 如果不配置：
     //'valaxy-addon-face'
+
+    addonWaline({
+      // Waline 配置项，参考 https://waline.js.org/reference/client/props.html
+      serverURL: 'https://fuyun-blog-comment.netlify.app/.netlify/functions/comment',})
   ],
   
 
