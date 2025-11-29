@@ -4,24 +4,25 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "build": "npm run build:ssg",
+    "dev": "valaxy",
+    "build": "pnpm run build:ssg",
+    "update": "pnpm up --latest -i",
     "build:spa": "valaxy build",
     "build:ssg": "valaxy build --ssg",
-    "dev": "valaxy",
     "rss": "valaxy rss",
     "serve": "vite preview"
   },
   "dependencies": {
-    "valaxy": "0.26.6",
+    "valaxy": "0.26.10",
     "valaxy-addon-components": "^0.1.0",
     "valaxy-addon-face": "^0.2.0",
     "valaxy-addon-lightgallery": "^0.0.4",
     "valaxy-addon-vercount": "^0.0.7",
     "valaxy-addon-waline": "^0.2.1",
-    "valaxy-theme-yun": "0.26.6"
+    "valaxy-theme-yun": "0.26.10"
   },
   "devDependencies": {
     "@iconify-json/line-md": "^1.2.11",
-    "typescript": "^5.9.2"
+    "typescript": "^5.9.3"
   }
 }
